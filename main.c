@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 	
 	fp=fopen("sample.txt","r");
 	
-	c=fgetc(fp);//글자 하나 가져옴 
+	
 	while((c=fgetc(fp))!=EOF)
 		putchar(c);
 		
